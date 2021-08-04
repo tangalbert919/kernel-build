@@ -9,11 +9,13 @@
 
   <project path="build" name="kernel/build" />
   <project path="common" name="kernel/common" revision="android11-5.4" />
+  <!-- Personal kernel tree for OnePlus devices -->
   <project path="oxygenos" name="tangalbert919/android_kernel_oneplus" revision="oneplus/SM8350_R_11.0" remote="github" />
   <project path="hikey-modules" name="kernel/hikey-modules" revision="android-5.4" />
   <project path="kernel/tests" name="kernel/tests" />
   <project path="kernel/configs" name="kernel/configs" />
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android11-5.4" />
+  <!-- Using CAF tag LA.UM.8.12.c3-39700-sm8250.0 for GCC -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="caf" revision="4fac8721b8d1ad95948d53ad618c1b8c4288ce52" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="caf" revision="f438be63c27ca31cb39b5e473b38d88146eb1762" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" remote="caf" revision="5d3ef6f3cc888e2d30a63acf7b010aa392a2317b" />
