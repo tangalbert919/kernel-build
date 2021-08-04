@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="aosp" fetch="https://android.googlesource.com" review="https://android-review.googlesource.com/" />
+  <remote  name="caf" fetch="https://source.codeaurora.org/quic/la/" />
+  <remote  name="github" fetch=".." />
+  <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
+
+  <superproject name="kernel/superproject" remote="aosp"/>
+
+  <project path="build" name="kernel/build" />
+  <project path="common" name="kernel/common" revision="android11-5.4" />
+  <project path="oxygenos" name="tangalbert919/android_kernel_oneplus" revision="oneplus/SM8350_R_11.0" remote="github" />
+  <project path="hikey-modules" name="kernel/hikey-modules" revision="android-5.4" />
+  <project path="kernel/tests" name="kernel/tests" />
+  <project path="kernel/configs" name="kernel/configs" />
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android11-5.4" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="caf" revision="4fac8721b8d1ad95948d53ad618c1b8c4288ce52" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="caf" revision="f438be63c27ca31cb39b5e473b38d88146eb1762" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" remote="caf" revision="5d3ef6f3cc888e2d30a63acf7b010aa392a2317b" />
+  <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
+  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
+</manifest>
