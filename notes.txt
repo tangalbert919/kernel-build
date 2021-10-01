@@ -1,0 +1,10 @@
+Notes:
+
+Command typically used to build OOS kernels: BUILD_CONFIG=oxygenos/build.config.msm.lahaina KERNEL_DIR=oxygenos/ GKI_MODULES_LIST=modules.list.msm.lahaina VARIANT=qgki LLVM=1 build/build.sh
+
+Copying config: cp arch/arm64/configs/{config filename} .config
+
+TODO:
+* Setup a more decent kernel build system.
+* Find some way to avoid using the QGKI config.
+* Maybe add more kernels for experimentation on OnePlus devices already acquired.
