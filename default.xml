@@ -11,7 +11,8 @@
   <project path="build" name="kernel/build" />
   <!--<project path="common" name="kernel/common" revision="android11-5.4" />-->
   <!-- Personal kernel tree for OnePlus devices -->
-  <project path="oxygenos" name="tangalbert919/android_kernel_oneplus_sm8350" revision="oneplus/SM8350_S_12.0_9Pro" remote="github" />
+  <project path="oxygenos" name="ZVNexus/android_kernel_oneplus_sm8350" revision="lineage-19.1" remote="github" />
+  <project path="coloros" name="tangalbert919/android_kernel_oneplus_sm8450" revision="op10-rebase" remote="github" />
   <!--<project path="op3-port" name="tangalbert919/android_kernel_oneplus_msm8996" revision="staging/lineage-19.0-4.9" remote="github" />-->
   <!--<project path="hikey-modules" name="kernel/hikey-modules" revision="android-5.4" />-->
   <project path="kernel/tests" name="kernel/tests" />
