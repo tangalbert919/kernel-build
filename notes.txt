@@ -2,6 +2,10 @@ Notes:
 
 Command typically used to build OOS kernels: BUILD_CONFIG=oxygenos/build.config.msm.lahaina KERNEL_DIR=oxygenos/ GKI_MODULES_LIST=modules.list.msm.lahaina VARIANT=qgki LLVM=1 build/build.sh
 
+For op10 kernel: BUILD_CONFIG=coloros/build.config.msm.waipio KERNEL_DIR=coloros GKI_MODULES_LIST=coloros/modules.list.msm.waipio LLVM=1 build/build.sh
+
+Generating defconfig (mostly for LineageOS, execute while in kernel directory): TARGET_BUILD_VARIANT=user LD=ld.lld scripts/gki/generate_defconfig.sh lahaina-qgki_defconfig
+
 Copying config: cp arch/arm64/configs/{config filename} .config
 
 TODO:
