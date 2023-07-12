@@ -5,12 +5,12 @@
       sync-c="true"
       sync-tags="false" />
   
-  <project remote="github" name="OnePlusOSS/android_kernel_msm-5.10_oneplus_sm8450" path="kernel_platform/msm-kernel" revision="oneplus/sm8450_t_13.1.0_10pro">
+  <project remote="github" name="tangalbert919/android_kernel_msm-5.10_oneplus_sm8450" path="kernel_platform/msm-kernel" revision="oneplus/sm8450_t_13.1.0_10pro">
     <linkfile dest="kernel_platform/common/build.config.msm.waipio" src="build.config.msm.waipio"/>
     <linkfile dest="kernel_platform/common/build.config.msm.waipio.tuivm" src="build.config.msm.waipio.tuivm"/>
     <linkfile dest="kernel_platform/common/build.config.msm.lahaina" src="build.config.msm.lahaina"/>
   </project>
-  <project remote="github" name="OnePlusOSS/android_kernel_modules_and_devicetree_oneplus_sm8450" path="." revision="oneplus/sm8450_t_13.1.0_10pro">
+  <project remote="github" name="tangalbert919/android_kernel_modules_and_devicetree_oneplus_sm8450" path="." revision="oneplus/sm8450_t_13.1.0_10pro">
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/audio_kernel_vendor_board.mk" src="vendor/qcom/opensource/audio-kernel/audio_kernel_vendor_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/audio_kernel_product_board.mk" src="vendor/qcom/opensource/audio-kernel/audio_kernel_product_board.mk"/>
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/camera-kernel_board.mk" src="vendor/qcom/opensource/camera-kernel/board.mk"/>
