@@ -5,7 +5,7 @@
       sync-c="true"
       sync-tags="false" />
   
-  <project remote="github" name="tangalbert919/android_kernel_msm-5.10_oneplus_sm8450" path="kernel_platform/msm-kernel" revision="oneplus/sm8450_t_13.1.0_10pro">
+  <project remote="github" name="tangalbert919/android_kernel_oneplus_sm8450" path="kernel_platform/msm-kernel" revision="oneplus/sm8450_t_13.1.0_10pro">
     <linkfile dest="kernel_platform/common/build.config.msm.waipio" src="build.config.msm.waipio"/>
     <linkfile dest="kernel_platform/common/build.config.msm.waipio.tuivm" src="build.config.msm.waipio.tuivm"/>
     <linkfile dest="kernel_platform/common/build.config.msm.lahaina" src="build.config.msm.lahaina"/>
